@@ -1,0 +1,106 @@
+body {
+    font-family: Lexend Deca;
+    font-size:1.2em; 
+}
+
+.wrapper {
+    max-width: 95%; 
+    margin:auto auto;
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+
+.col{
+    /* color: hsla(0, 0%, 100%, 0.75); */
+   padding: 3em 3em;
+     
+    
+} 
+
+h2{
+    color: hsl(0, 0%, 95%);
+}
+
+p {
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+.col-1 {
+    background-color:hsl(31, 77%, 52%);
+
+}
+
+.col-2{
+    background-color:hsl(184, 100%, 22%);
+}
+
+.col-3{
+    background-color:hsl(179, 100%, 13%);
+}
+
+button {
+    border-radius: 2em;
+    display: inline-block; 
+    margin-top: 2em;
+    color: hsl(0, 0%, 95%);
+    text-align: center;
+    font-size: 1rem;
+    padding: 1em;
+    background-color: hsl(0, 0%, 95%);
+    /* border-color:hsla(0, 0%, 100%, 0.75) ; */
+}
+
+button:hover{
+    color:hsl(0, 0%, 95%);
+}
+
+.btn-1{
+    color:hsl(31, 77%, 52%) ;
+}
+/* .btn-1:hover{
+    background-color: hsl(31, 77%, 52%) ;
+} */
+
+.btn-2{
+    color:hsl(184, 100%, 22%);
+}
+/* .btn-2:hover{
+    background-color:hsl(184, 100%, 22%) ;
+} */
+
+.btn-3{
+    color:hsl(179, 100%, 13%);
+} 
+/* .btn-3:hover{
+    background-color:hsl(179, 100%, 13%) ;
+} */
+
+@media screen and (max-width:385px)
+{
+    .wrapper{
+        flex-wrap:wrap;
+        padding-top:10%;
+        padding-bottom: 10%;
+        justify-content: center;
+    }
+    .col{
+        min-width: 50%;
+    }
+} 
+
+@media screen and (min-width:400px) 
+{
+    body{
+        font-size: 1.5em;
+    }
+    .wrapper{
+        padding-top: 10em;
+        padding-bottom: 10em;
+        justify-content: center;
+    }
+    .col{
+        max-width:20%;
+
+    }
+}
