@@ -51,9 +51,9 @@ button {
     /* border-color:hsla(0, 0%, 100%, 0.75) ; */
 }
 
-button:hover{
+/* button:hover{
     color:hsl(0, 0%, 95%);
-}
+} */
 
 .btn-1{
     color:hsl(31, 77%, 52%) ;
